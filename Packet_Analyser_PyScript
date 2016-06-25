@@ -1,6 +1,7 @@
 import socket
 import subprocess
 import sys
+import os
 from datetime import datetime
 ## Clear screen
 subprocess.call('clear', shell=True)

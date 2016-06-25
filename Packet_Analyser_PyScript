@@ -1,0 +1,38 @@
+import socket
+import subprocess
+import sys
+from datetime import datetime
+## Clear screen
+subprocess.call('clear', shell=True)
+## Enter Host details 
+remoteServer = input("Enter a host details to scan: ")
+remoteServerIP = socket.gethostbyname(remoteServer)
+except socket.gaierror:
+print("Hostname Unavailable. Exiting Application")
+sys.exit()
+# Displays host details
+print "Hold on, scanning in progress", remoteServerIP)
+()try:
+for portTCP in range(1,65535): 
+sockTCP = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+resultTCP = sockTCP.connect_ex((remoteServerIP, port))
+if resultTCP == 0:
+print "PortTCP {}: \t Open".format(portTCP)
+sock.close()
+for portUDP in range(1,65535): 
+sockUDP = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+resultUDP = sockUDP.connect_ex((remoteServerIP, port))
+if resultUDP == 0:
+print "PortUDP {}: \t Open".format(portUDP)
+sockUDP.close()
+except KeyboardInterrupt:
+print("You pressed Ctrl+C")
+sys.exit()
+## Host execption for wrong details
+except socket.gaierror:
+print("Hostname Unavialable. Exiting appliation")
+sys.exit()
+## Socket error 
+except socket.error:
+print("Unable to establish connection")
+sys.exit()

@@ -1,5 +1,5 @@
 # Anlyzit
-Anlyzit is a lightweight port scanning application built with python :snake: based on Sockets :electric plug:.This application given the target host IP can carry out an detailed port scan and detect all open ports if any. 
+Anlyzit is a lightweight port scanning application built with python :snake: based on Sockets🔌 .This application given the target host IP can carry out an detailed port scan and detect all open ports if any. 
 This application was created for education purposes only.
 
 # Usage

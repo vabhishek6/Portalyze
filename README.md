@@ -1,3 +1,11 @@
+```
+_______              ______            __________
+___    |____________ ___  /____  _________(_)_  /_
+__  /| |_  __ \  __ `/_  /__  / / /__  /_  /_  __/
+_  ___ |  / / / /_/ /_  / _  /_/ /__  /_  / / /_
+/_/  |_/_/ /_/\__,_/ /_/  _\__, / _____/_/  \__/
+                          /____/
+```
 # Anlyzit
 Anlyzit is a lightweight port scanning application built with python :snake: based on Sockets🔌 .This application given the target host IP can carry out an detailed port scan and detect all open ports if any. 
 This application was created for education purposes only.

@@ -18,4 +18,4 @@ This application was created for education purposes only.
 # Usage
 Run the application and provide the host machine Ip address and the maximum number of ports to scan , ie for example if you want to scan from 1-1000 , then enter 1000 as the max range.
 
-![alt text](https://github.com/vabhishek6/anlyzit/blob/master/example.png)
+![alt text](https://github.com/vabhishek6/anlyzit/blob/master/portalyze_example.png)
